@@ -7,7 +7,7 @@ const HOST = '0.0.0.0';
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello Quadrant Resource\n');
+  res.send('Hello User\n');
 });
 
 app.listen(PORT, HOST);
